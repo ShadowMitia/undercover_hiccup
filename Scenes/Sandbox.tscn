@@ -1,8 +1,14 @@
-[gd_scene load_steps=63 format=2]
+[gd_scene load_steps=69 format=2]
 
 [ext_resource path="res://Assets/hiccup/spritesheet_characters.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Character.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sounds/hic_1.mp3" type="AudioStream" id=3]
 [ext_resource path="res://Scenes/Guard.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/RandomHiccupsPlayer.gd" type="Script" id=5]
+[ext_resource path="res://Assets/Sounds/hic_3.mp3" type="AudioStream" id=6]
+[ext_resource path="res://Assets/Sounds/hic_4.mp3" type="AudioStream" id=7]
+[ext_resource path="res://Assets/Sounds/hic_2.mp3" type="AudioStream" id=8]
+[ext_resource path="res://Assets/Sounds/hic_5.mp3" type="AudioStream" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
@@ -545,6 +551,7 @@ tile_data = PoolIntArray( 0, 0, 0, 1, 0, 2, 2, 0, 2, 3, 0, 2, 4, 0, 2, 5, 0, 2, 
 
 [node name="MainCharacter" type="KinematicBody2D" parent="." groups=["player"]]
 position = Vector2( 832, 448 )
+scale = Vector2( 1.25, 1.25 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -561,6 +568,14 @@ region_rect = Rect2( 337, 0, 33, 43 )
 [node name="Camera2D" type="Camera2D" parent="MainCharacter"]
 current = true
 
+[node name="TimerHiccup" type="Timer" parent="MainCharacter"]
+wait_time = 5.0
+autostart = true
+
+[node name="RandomHiccupsPlayer" type="AudioStreamPlayer" parent="MainCharacter"]
+script = ExtResource( 5 )
+effects_list = [ ExtResource( 3 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 9 ) ]
+
 [node name="Path2D" type="Path2D" parent="."]
 curve = SubResource( 61 )
 
@@ -571,3 +586,5 @@ loop = false
 
 [node name="Guard" parent="Path2D/PathFollow2D" instance=ExtResource( 4 )]
 path_path = NodePath("../..")
+
+[connection signal="timeout" from="MainCharacter/TimerHiccup" to="MainCharacter" method="_on_TimerHiccup_timeout"]

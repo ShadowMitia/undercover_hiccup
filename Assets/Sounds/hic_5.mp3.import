@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hic_5.mp3-a9623712f12e678a2a070e4ad52cba8d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/hic_5.mp3"
+dest_files=[ "res://.import/hic_5.mp3-a9623712f12e678a2a070e4ad52cba8d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

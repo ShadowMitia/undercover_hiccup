@@ -14,4 +14,12 @@ func _physics_process(delta: float) -> void:
 
 	rotation = dir.angle()
 	
+	$Camera2D.rotation = lerp($Camera2D.rotation, 0, 0.001)
+	
+
+
+func _on_TimerHiccup_timeout() -> void:
+	print("Hiccup!")
+	$RandomHiccupsPlayer.play()
+	$Camera2D.rotation = -2
 	

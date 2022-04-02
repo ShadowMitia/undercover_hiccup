@@ -6,10 +6,10 @@ path="res://.import/hiccup.ldtk-005241203394bd6e236664f6d4f32ebb.tscn"
 
 [deps]
 
-files=[ "res://Assets/hiccup/Level_0.tscn", "res://Assets/hiccup/Level_1.tscn", "res://Assets/hiccup/Level_2.tscn", "res://Assets/hiccup/Level_3.tscn", "res://Assets/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/hiccup/tilesets/BIEN_CADRER.tres" ]
+files=[ "res://Assets/hiccup/Level_0.tscn", "res://Assets/hiccup/Level_1.tscn", "res://Assets/hiccup/Level_2.tscn", "res://Assets/hiccup/Level_3.tscn", "res://Assets/hiccup/Level_4.tscn", "res://Assets/hiccup/Level_5.tscn", "res://Assets/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/hiccup/tilesets/BIEN_CADRER.tres" ]
 
 source_file="res://Assets/hiccup.ldtk"
-dest_files=[ "res://.import/hiccup.ldtk-005241203394bd6e236664f6d4f32ebb.tscn", "res://Assets/hiccup/Level_0.tscn", "res://Assets/hiccup/Level_1.tscn", "res://Assets/hiccup/Level_2.tscn", "res://Assets/hiccup/Level_3.tscn", "res://Assets/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/hiccup/tilesets/BIEN_CADRER.tres" ]
+dest_files=[ "res://.import/hiccup.ldtk-005241203394bd6e236664f6d4f32ebb.tscn", "res://Assets/hiccup/Level_0.tscn", "res://Assets/hiccup/Level_1.tscn", "res://Assets/hiccup/Level_2.tscn", "res://Assets/hiccup/Level_3.tscn", "res://Assets/hiccup/Level_4.tscn", "res://Assets/hiccup/Level_5.tscn", "res://Assets/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/hiccup/tilesets/BIEN_CADRER.tres" ]
 
 [params]
 
