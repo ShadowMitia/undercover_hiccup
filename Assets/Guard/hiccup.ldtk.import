@@ -1,0 +1,15 @@
+[remap]
+
+importer="ldtk.mapimporter"
+type="Scenes"
+path="res://.import/hiccup.ldtk-235bb4f5b6cb2a531d3ca31e6c8205e8.tscn"
+
+[deps]
+
+files=[ "res://Assets/Guard/hiccup/Level_0.tscn", "res://Assets/Guard/hiccup/Level_1.tscn", "res://Assets/Guard/hiccup/Level_2.tscn", "res://Assets/Guard/hiccup/Level_3.tscn", "res://Assets/Guard/hiccup/Level_4.tscn", "res://Assets/Guard/hiccup/Level_5.tscn", "res://Assets/Guard/hiccup/Level_6.tscn", "res://Assets/Guard/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/Guard/hiccup/tilesets/BIEN_CADRER.tres" ]
+
+source_file="res://Assets/Guard/hiccup.ldtk"
+dest_files=[ "res://.import/hiccup.ldtk-235bb4f5b6cb2a531d3ca31e6c8205e8.tscn", "res://Assets/Guard/hiccup/Level_0.tscn", "res://Assets/Guard/hiccup/Level_1.tscn", "res://Assets/Guard/hiccup/Level_2.tscn", "res://Assets/Guard/hiccup/Level_3.tscn", "res://Assets/Guard/hiccup/Level_4.tscn", "res://Assets/Guard/hiccup/Level_5.tscn", "res://Assets/Guard/hiccup/Level_6.tscn", "res://Assets/Guard/hiccup/tilesets/Tilesheet_complete_2X.tres", "res://Assets/Guard/hiccup/tilesets/BIEN_CADRER.tres" ]
+
+[params]
+

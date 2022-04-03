@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/spritesheet_characters.png-36ea8ff9a1fbe6823ecbdfe4311091fb.stex"
+path="res://.import/pixil-frame-0.png-a244558f27a03d76df9076b815a38093.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/hiccup/spritesheet_characters.png"
-dest_files=[ "res://.import/spritesheet_characters.png-36ea8ff9a1fbe6823ecbdfe4311091fb.stex" ]
+source_file="res://Assets/Hero/pixil-frame-0.png"
+dest_files=[ "res://.import/pixil-frame-0.png-a244558f27a03d76df9076b815a38093.stex" ]
 
 [params]
 
